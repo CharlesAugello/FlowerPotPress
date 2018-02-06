@@ -4,7 +4,7 @@
   }
   h3, h4 {
       margin: 10px 0 30px 0;
-      letter-spacing: 10px;      
+      letter-spacing: 3px;      
       font-size: 20px;
       color: #111;
   }
@@ -43,14 +43,7 @@
   }
   .bg-1 h3 {color: #fff;}
   .bg-1 p {font-style: italic;}
-  .list-group-item:first-child {
-      border-top-right-radius: 0;
-      border-top-left-radius: 0;
-  }
-  .list-group-item:last-child {
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
-  }
+  
   .thumbnail {
       padding: 0 0 15px 0;
       border: none;
@@ -140,3 +133,65 @@
   textarea {
       resize: none;
   }
+  .bookdisc1 {
+      font-size: 13px;
+      padding: 12px;
+  }
+  .bookdisc2 {
+      font-size: 13px;
+      padding: 23px 0 21px 0;
+  }
+  .bookdisc3 {
+      font-size: 13px;
+      padding: 5px 2px 0px 6px;
+  }
+  .cntcinfo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .cntclbl{
+      font-size: 2em;
+  }
+  .cntcoak{
+      padding-top: 25px;
+  }
+  .cntcten{
+      padding-top: 25px;
+  }
+  .location{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  footer{
+        display: flex;
+        justify-content:space-between;
+        padding: 60px 0px 68px 75px; 
+        background: #2d2d2d;
+        color: white;
+        text-align: center;
+        padding: 3em 3em;
+  }
+
+  footer article{
+        text-align: left;
+        width: 298px;
+  }
+  footer p{
+        margin: 0 0 10px 0;
+  }
+  footer nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 100%;
+        font-size: .75em;
+        text-align: left;
+  }
+  footer{
+    background: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 3em 3em;
+}
